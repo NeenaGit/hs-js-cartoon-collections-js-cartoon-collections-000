@@ -30,13 +30,6 @@ function longPlaneteerCalls(words) {
 function findTheCheese (foods) {
 
  const cheese = ['cheddar',  'gouda', 'camembert'];
- // find that works with arrays
- // includes function that also works with arrays
-
- // find is an iterator that takes in a function definition to pass in the parameter(callback)
- // inside the function(callback it checks if each food is included in the cheeese array)
- // if it is included, cheese.includes(food) will return true, which will stop the find function
- // and return us the element(food) that it is currently iterated on and set it to our food variable
 
  var food = foods.find(function(food){
    return cheese.includes(food)
