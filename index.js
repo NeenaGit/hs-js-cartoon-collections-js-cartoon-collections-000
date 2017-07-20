@@ -29,7 +29,7 @@ function longPlaneteerCalls(words) {
 
 function findTheCheese (foods) {
 
- const cheese = ['cheddar',  'gouda', 'camembert'];
+ const cheese = ['cheddar',  'gouda', 'camembert', 'swiss'];
 
  var food = foods.find(function(food){
    return cheese.includes(food)
@@ -45,3 +45,11 @@ function findTheCheese (foods) {
    return 'no cheese!'
  }
 }
+
+function b(words){   
+  return words.filter(function(word){
+  return word.startsWith(“b”)})    
+
+}
+
+ 
